@@ -2,6 +2,7 @@
 # My personal website
 
 I built this while playing with [Harp](http://harpjs.com/).
+Here's the live version: [https://seclab.co](https://seclab.co)
 
 ## Cloning and starting the server
 
