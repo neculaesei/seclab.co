@@ -1,0 +1,98 @@
+// Small
+@media only screen and (max-width : 991px) {
+  .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .site-header {
+    .branding {
+      display: block;
+      max-width: 100%;
+      flex: 0 0 100%;
+      text-align: center;
+
+      h1 {
+        display: inline-block;
+      }
+    }
+    .menu-toggle {
+      display: block;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      background: white;
+      z-index: 1;
+      transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+      &.active {
+        right: 0;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 2px solid $color-text;
+
+        a {
+          padding: 15px 20px;
+          text-align: center;
+          
+          &:not(:last-child), &:not(.active) {
+            border-bottom: 2px solid #ccc;
+          }
+        }
+      }
+    }
+  }
+
+  .actions {
+    a {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  body.index {
+    .hero {
+      padding: 10vh 0;
+      text-align: center;
+
+      h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+      }
+    }
+    .term-widget {
+      display: none;
+    }
+    .actions {
+      text-align: left;
+    }
+  }
+
+  body.resume {
+    .job p, .job ul {
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+// Medium
+@media only screen and (min-width : 992px) and (max-width : 1119px) {
+}
+
+// Large
+@media only screen and (min-width : 1200px) {
+}

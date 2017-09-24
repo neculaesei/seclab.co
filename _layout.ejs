@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Andrei Neculaesei - Thoughts, code and disclosures</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@neculaesei">
+    <meta property="og:site_name" content="seclab.co">
+    <link href="/assets/fav.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/assets/fav.png" rel="apple-touch-icon-precomposed">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body class="<%- current.source %>">
+  	<%- partial("_partials/_header") %>
+    <main class="container">
+    	<%- yield %>
+    </main>
+    <%- partial("_partials/_footer") %>
+  </body>
+</html>

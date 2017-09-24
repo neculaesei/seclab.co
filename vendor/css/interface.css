@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("/vendor/fonts/interface/Interface-Regular.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-Regular.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("/vendor/fonts/interface/Interface-RegularItalic.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-RegularItalic.woff?v=1.2") format("woff");
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("/vendor/fonts/interface/Interface-Medium.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-Medium.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 500;
+  src: url("/vendor/fonts/interface/Interface-MediumItalic.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-MediumItalic.woff?v=1.2") format("woff");
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("/vendor/fonts/interface/Interface-Bold.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-Bold.woff?v=1.2") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("/vendor/fonts/interface/Interface-BoldItalic.woff2?v=1.2") format("woff2"),
+       url("/vendor/fonts/interface/Interface-BoldItalic.woff?v=1.2") format("woff");
+}

@@ -1,0 +1,20 @@
+<header class="container site-header">
+  <div class="row">
+    <div class="branding col-2">
+      <a href="/"><h1>SECLAB</h1></a>
+    </div>
+    <div class="menu-toggle">
+      <button><i data-feather="menu"></i></button>
+    </div>
+    <div class="menu text-right col-10">
+      <nav>
+        <a href="/" class="<%- current.source == 'index' ? 'active' : '' %>">Home</a>
+        <a href="http://blog.seclab.co" class="<%- current.source == 'articles' ? 'active' : '' %>">Articles</a>
+        <a href="/projects" class="<%- current.source == 'projects' ? 'active' : '' %>">Projects</a>
+        <a href="/security" class="<%- current.source == 'security' ? 'active' : '' %>">Security</a>
+        <a href="/resume" class="<%- current.source == 'resume' ? 'active' : '' %>">Resume</a>
+        <a href="/contact" class="<%- current.source == 'contact' ? 'active' : '' %>">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
